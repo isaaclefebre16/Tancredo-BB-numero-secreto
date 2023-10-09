@@ -1,12 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500&display=swap');
 
 :root {
-    --font-family: 'Nunito', sans-serif;
-    --bg-color: #2e2f74;
-    --primary-color: #000000;
-    --secundary-color: #4b4d7e;
-    --detalhes: #E5C3A6;
-
+font-family: 'sans', cursive;
+--bg-color: #1b1bde;
+--primary-color: #42daee;
 }
 
 body {
@@ -24,19 +21,16 @@ body {
 
 h1 {
     font-size: 5em;
-
 }
 
 h3 {
     font-size: 2em;
     margin-top: 20px;
-
 }
 
 .mensagem {
     font-size: 1.5em;
     margin-top: 40px;
-
 }
 
 .box {
