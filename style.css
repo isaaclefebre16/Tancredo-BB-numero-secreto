@@ -1,14 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
 
 :root {
-font-family: 'sans', cursive;
---bg-color: #1b1bde;
---primary-color: #42daee;
+    --fonte-primaria: 'Fuggles', cursive;
+    --cor-de-fundo: #4C3D3D;
+    --cor-primaria: #FFD95A;
+    --cor-secundaria: #FFF7D4;
+    --detalhes: #C07F00;
 }
 
-body {
-    background-color: var(--bg-color);
-    color: var(--primary-color);
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-primaria);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -16,27 +18,31 @@ body {
     justify-content: center;
     text-align: center;
     margin: 0;
-    font-family: var(--font-family);
+    font-family: var(--fonte-primaria);
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 7em;
+}
+h2{
+    font-size: 4em;
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 3.5em;
     margin-top: 20px;
 }
 
 .mensagem {
-    font-size: 1.5em;
+    font-size: 2em;
     margin-top: 40px;
 }
 
 .box {
-    border: 2px solid var(--primary-color);
+    border: 4px double var(--detalhes);
+    box-shadow: var(--cor-secundaria) 2px 2px 25px;
     display: inline-block;
-    font-size: 4em;
+    font-size: 5em;
     padding: 10px;
     margin: 20px;
 }

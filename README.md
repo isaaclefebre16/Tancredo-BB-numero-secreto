@@ -1,2 +1,2 @@
-# tancredo-2b-numero-secreto
-projeto de um site utilizando html css java script
+# Tancredo-2B-numero-secreto
+Projeto de um site utilizando as linguagens HTML, CSS e JavaScript
