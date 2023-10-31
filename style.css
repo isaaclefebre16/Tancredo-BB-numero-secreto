@@ -2,10 +2,10 @@
 
 :root {
     --fonte-primaria: 'Fuggles', cursive;
-    --cor-de-fundo: #4C3D3D;
+    --cor-de-fundo: #b37970;
     --cor-primaria: #FFD95A;
-    --cor-secundaria: #FFF7D4;
-    --detalhes: #C07F00;
+    --cor-secundaria: #f3d23e;
+    --detalhes: #d6bc87;
 }
 
 body{
